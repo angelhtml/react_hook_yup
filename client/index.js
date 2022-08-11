@@ -32,7 +32,7 @@ function App(){
         console.log(error);
       }) 
   }; 
-console.log(datas)
+
   return(
     <div>
       {loading ? <h1> Welcome <u>{datas.name}</u> and your age is <u>{datas.age}</u> </h1> : <h1>What`s your name?</h1>}
