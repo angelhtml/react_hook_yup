@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-app.post("/api/user", async (req, res) => {
+app.post("/api/user", (req, res) => {
     const username = req.body.Username;
     const age = req.body.Age;
     res.send({"name" : username, "age" : age})  
