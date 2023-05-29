@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/code_style-Angel-ff0000.svg" alt="angel code style"/>
 </p>
 
-<p>manage your data using with react hook form and yup and send it to your server 💻</p>
+<p>manage your data using with react hook form and yup and send it to your server </p>
 
 <h1>📜libraries</h1>
 <ul>
